@@ -1,15 +1,10 @@
-$fontColor: #0091aa;
-$colorHeading: #be4a14;
-#content  // div with id: content
-{
-    color: $fontColor;
+table, th, td {
+    border-collapse: collapse;
+  }
+tr{
+    background-color: coral;
 }
 
-h2
-{
-    color: $colorHeading;
-}
-
-h1{
-    @extend h2;
-}
+tr:nth-child(even) {
+    background-color: red;
+  }
